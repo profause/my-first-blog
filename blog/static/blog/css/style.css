@@ -1,0 +1,60 @@
+@font-face {
+    font-family: Satisfy;
+    src: url('../../blog/fonts/Satisfy-Regular.ttf');
+}
+
+@font-face {
+    font-family: Monosten;
+    src: url('../../blog/fonts/Monosten.ttf');
+}
+
+body{
+    background: white url('../../blog/images/album_bg.png');
+    font-family: Monosten;
+    margin-top: 50px;
+    
+}
+
+.navbar{
+    border-radius: 0;
+}
+
+.navbar-brand{
+    font-family: Satisfy,cursive;
+}
+
+ul#nav li {
+    display:inline;
+}
+ul#nav li a{
+    text-decoration: none;
+}
+
+
+.breadcrumb{
+    background: white;
+}
+
+
+.link{
+    text-decoration: none !important;
+}
+
+
+.borded{
+    border: 0.5px solid #C6D2DB;
+    border-radius: 2px;
+    padding: 20px;
+    margin: 10px;
+    white-space: normal; 
+    overflow: hidden;
+}
+
+.post-title{
+    font-family: Satisfy;
+    font-style:bold;
+}
+
+.horizontal-line{
+    border-bottom: 0.5px solid #C6D2DB;
+}
